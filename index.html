@@ -3,43 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <title>Política de Privacidad – VíaBici</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: Arial, sans-serif; margin: 2em; line-height: 1.6; color: #222; }
     h1, h2 { color: #006400; }
+    ul { margin-top: 0.4em; }
+    .small { color:#555; font-size: .95em; }
+    strong { color:#111; }
   </style>
 </head>
 <body>
   <h1>Política de Privacidad</h1>
-  <p>Última actualización: 29 de julio de 2025</p>
+  <p><strong>Última actualización: 13 de agosto de 2025</strong></p>
 
-  <p>La aplicación <strong>VíaBici</strong>, desarrollada por Nicolás Borzillo (<a href="mailto:nibocode@gmail.com">nibocode@gmail.com</a>), respeta la privacidad de sus usuarios. Esta política explica qué información se recopila y cómo se utiliza.</p>
+  <p>
+    La aplicación <strong>VíaBici</strong> es desarrollada por Nicolás Borzillo
+    (<a href="mailto:nibocode@outlook.com">nibocode@outlook.com</a>).
+    Esta política explica qué datos tratamos, con qué fines y qué controles tenés sobre ellos.
+  </p>
 
-  <h2>1. Datos que recopilamos</h2>
-  <p><strong>VíaBici no recopila información personal identificable de los usuarios.</strong></p>
-  <p>La única información que se utiliza es la ubicación del dispositivo, la cual es necesaria para mostrar rutas y mapas basados en la ubicación actual del usuario.</p>
+  <h2>1) Alcance</h2>
+  <p>
+    Esta política aplica al uso de VíaBici. Algunas funciones (por ejemplo, sincronización de favoritos e historial)
+    requieren iniciar sesión y usan servicios de terceros como Firebase (Google) y Mapbox.
+  </p>
 
-  <h2>2. Uso de la ubicación</h2>
-  <p>La app solicita permiso para acceder a tu ubicación en tiempo real exclusivamente para ofrecer funcionalidades como:</p>
+  <h2>2) Qué datos tratamos</h2>
+  <p><strong>Uso sin cuenta (anónimo):</strong> podés usar VíaBici sin iniciar sesión. En ese caso, tus datos (rutas guardadas, historial, accesos directos) se guardan localmente en tu dispositivo y no se envían a nuestros servidores.</p>
+  <p><strong>Uso con cuenta (sincronización):</strong> si iniciás sesión (Apple, Google o email), sincronizamos los siguientes datos con Firebase (Google):</p>
   <ul>
-    <li>Mostrar tu ubicación en el mapa</li>
-    <li>Calcular rutas optimizadas para bicicleta</li>
+    <li><strong>Datos de cuenta:</strong> identificador de usuario (UID), proveedor de acceso (Apple, Google o email). Si usás email, también tu dirección de correo. Con “Iniciar sesión con Apple”, podemos no recibir tu email real si elegís ocultarlo.</li>
+    <li><strong>Contenido generado por vos:</strong> rutas favoritas y completadas, accesos directos/atajos, historial de navegación entre puntos y estadísticas agregadas (distancia/tiempo/trips).</li>
+    <li><strong>Coordenadas de origen/destino</strong> asociadas a rutas e historial, para poder re-mostrarte esos recorridos después.</li>
+    <li><strong>Datos técnicos mínimos:</strong> información necesaria para operar el servicio (marcas de tiempo, IDs internos).</li>
   </ul>
-  <p>La ubicación se procesa localmente en el dispositivo. <strong>La información no se almacena ni se transmite a servidores propios ni externos.</strong></p>
 
-  <h2>3. Servicios de terceros</h2>
-  <p>VíaBici utiliza <strong>Mapbox</strong> como proveedor de mapas. Mapbox puede acceder a ciertos datos técnicos necesarios para mostrar correctamente el mapa (como dirección IP o tipo de dispositivo). Para más información, consultá la <a href="https://www.mapbox.com/legal/privacy" target="_blank">política de privacidad de Mapbox</a>.</p>
+  <h2>3) Ubicación y audio en segundo plano</h2>
+  <ul>
+    <li><strong>Ubicación precisa</strong> se usa para mostrarte en el mapa, calcular rutas y guiarte giro a giro. Durante un viaje, la app puede seguir accediendo a la ubicación en segundo plano para mantener la navegación; iOS mostrará el <em>Background Location Indicator</em> (barra/ícono azul). No usamos tu ubicación para publicidad.</li>
+    <li><strong>Audio en segundo plano</strong> se usa para reproducir instrucciones habladas (TTS) mientras la app está minimizada, únicamente durante la navegación.</li>
+  </ul>
 
-  <h2>4. Compartición de datos</h2>
-  <p>La app <strong>no comparte datos personales</strong> con terceros. Toda la información permanece en el dispositivo del usuario.</p>
+  <h2>4) Finalidades del tratamiento</h2>
+  <ul>
+    <li>Proporcionar mapas, cálculo de rutas y navegación para bicicleta.</li>
+    <li>Sincronizar tus favoritos, historial, atajos y estadísticas entre dispositivos cuando iniciás sesión.</li>
+    <li>Autenticar tu identidad (Apple/Google/email) y mantener la sesión.</li>
+  </ul>
 
-  <h2>5. Seguridad</h2>
-  <p>Dado que no se recopilan ni almacenan datos personales, no existe riesgo de filtración o pérdida de datos sensibles. Aun así, seguimos buenas prácticas de seguridad para proteger el correcto funcionamiento de la aplicación.</p>
+  <h2>5) Bases legales</h2>
+  <p>
+    Tratamos tus datos para ejecutar el servicio que solicitás (art. 6.1.b RGPD o equivalente) y con tu consentimiento para permisos del sistema como la ubicación precisa y el audio en segundo plano (art. 6.1.a RGPD).
+  </p>
 
-  <h2>6. Cambios en esta política</h2>
-  <p>Esta política puede actualizarse en el futuro. Los cambios se reflejarán en esta misma página.</p>
+  <h2>6) Servicios de terceros que usamos</h2>
+  <ul>
+    <li><strong>Firebase (Google)</strong> – autenticación y base de datos (Cloud Firestore) para sincronización de tu contenido.
+      Ver <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacidad de Firebase</a>.</li>
+    <li><strong>Mapbox</strong> – mapas y servicios cartográficos. Puede recibir datos técnicos y de ubicación necesarios para mostrar el mapa y calcular rutas.
+      Ver <a href="https://www.mapbox.com/legal/privacy" target="_blank" rel="noopener">Privacidad de Mapbox</a>.</li>
+    <li><strong>Iniciar sesión con Apple</strong> – proveedor de identidad de Apple. Ver <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Privacidad de Apple</a>.</li>
+    <li><strong>Google Sign-In</strong> – proveedor de identidad de Google, si lo elegís. Ver <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacidad de Google</a>.</li>
+  </ul>
+  <p class="small">
+    Estos proveedores actúan como encargados de tratamiento para prestar el servicio. No vendemos tus datos ni los usamos para publicidad.
+  </p>
 
-  <h2>7. Contacto</h2>
-  <p>Si tenés dudas sobre esta política, podés contactarme a: <a href="mailto:nibocode@outlook.com">nibocode@outlook.com</a></p>
+  <h2>7) Conservación</h2>
+  <ul>
+    <li><strong>Sin cuenta:</strong> los datos permanecen solo en tu dispositivo hasta que desinstalás la app o usás opciones de borrado.</li>
+    <li><strong>Con cuenta:</strong> conservamos tus datos en Firebase mientras tu cuenta esté activa. Si eliminás la cuenta (ver sección 10), borramos tus datos de nuestras bases activas. Las copias de seguridad del proveedor, si existen, se purgan de forma periódica y no se usan con fines distintos al mantenimiento del servicio.</li>
+  </ul>
+
+  <h2>8) Seguridad</h2>
+  <p>
+    Usamos canales cifrados (TLS) y las salvaguardas de seguridad de Firebase y Mapbox.
+    Aun así, ningún sistema es 100% infalible. Te recomendamos mantener tu dispositivo actualizado y protegido.
+  </p>
+
+  <h2>9) Tus controles y derechos</h2>
+  <ul>
+    <li>Podés usar la app sin cuenta para minimizar el procesamiento fuera del dispositivo.</li>
+    <li>Podés revocar permisos de ubicación o audio desde Ajustes del sistema (tené en cuenta que algunas funciones dejarán de funcionar).</li>
+    <li>Si iniciaste sesión, podés solicitar acceso o rectificación de tus datos escribiendo a <a href="mailto:nibocode@outlook.com">nibocode@outlook.com</a>.</li>
+  </ul>
+
+  <h2>10) Eliminación de cuenta y datos</h2>
+  <p><strong>Podés eliminar tu cuenta directamente desde la app, sin salir de ella:</strong></p>
+  <ol>
+    <li>Abrí VíaBici → <em>Perfil</em> / <em>Configuración</em>.</li>
+    <li>Tocá <strong>“Eliminar cuenta”</strong> y confirmá.</li>
+  </ol>
+  <p>Al confirmar, realizamos lo siguiente:</p>
+  <ul>
+    <li>Eliminamos tu usuario de <strong>Firebase Authentication</strong>.</li>
+    <li>Borramos de <strong>Cloud Firestore</strong> tus datos sincronizados: favoritos, rutas completadas, accesos directos, historial y estadísticas.</li>
+    <li>Limpiamos los datos locales de la app en tu dispositivo (caches/almacenamiento de la app relacionado con tu cuenta).</li>
+  </ul>
+  <p>
+    La eliminación es permanente y no puede deshacerse. Si encontrás algún problema con el borrado in-app, escribinos a
+    <a href="mailto:nibocode@outlook.com">nibocode@outlook.com</a> para ayudarte.
+  </p>
+
+  <h2>11) Menores</h2>
+  <p>VíaBici está destinada a público general. Si sos responsable de un menor y creés que se creó una cuenta sin tu consentimiento, escribinos para eliminarla.</p>
+
+  <h2>12) Transferencias internacionales</h2>
+  <p>Firebase y Mapbox pueden procesar datos en centros de datos fuera de tu país. Usamos proveedores con medidas adecuadas de protección y cláusulas contractuales estándar cuando corresponde.</p>
+
+  <h2>13) Cambios en esta política</h2>
+  <p>Podemos actualizar esta política para reflejar cambios en la app o en la normativa. Publicaremos la nueva versión en esta página e indicaremos la fecha de actualización.</p>
+
+  <h2>14) Contacto</h2>
+  <p>
+    Si tenés dudas o pedidos relacionados con privacidad, escribí a
+    <a href="mailto:nibocode@outlook.com">nibocode@outlook.com</a>.
+  </p>
 
 </body>
 </html>
+
